@@ -1,0 +1,97 @@
+/* --------------ROOT------------- */
+:root {
+  --creme: #f2ede2;
+  --blue: #002b84;
+  --orange: #ff5b00;
+  --purple: #b3a8f3;
+  --pink: #f63fb8;
+  --green: #008111;
+}
+
+/* --------------BODY-------------- */
+
+body {
+  background-color: var(--creme);
+}
+
+main {
+  height: 100vw;
+  margin-top: 200px;
+}
+
+/* -----------HEADER-------------- */
+.navbar {
+  background-color: var(--creme);
+}
+
+.nav-img {
+  width: 300px;
+  height: 100px;
+}
+
+.navbar-brand {
+  margin: auto;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler[aria-expanded="true"] .bar {
+}
+
+.navbar-toggler-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bar {
+  background-image: url(images/bar.svg);
+  background-repeat: none;
+  height: 3px;
+  width: 30px;
+  background-size: contain;
+}
+
+.bar.one {
+  transform: translate(-11px, 0);
+  animation: 2s;
+  transition: 0.5s;
+}
+
+.bar.two {
+  transform: translate(0px, 0);
+  animation: 2s;
+  transition: 0.5s;
+}
+
+.bar.three {
+  transform: translate(-9px, 0);
+  animation: 2s;
+  transition: 0.5s;
+}
+
+.navbar-toggler[aria-expanded="true"] .bar.one {
+  transform: rotate(45deg);
+  transition: 0.5s;
+}
+
+.navbar-toggler[aria-expanded="true"] .bar.two {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.navbar-toggler[aria-expanded="true"] .bar.three {
+  transform: rotate(-45deg) translate(7px, -7px);
+  transition: 0.5s;
+}
+
+.nav-link {
+  color: var(--blue);
+  font-family: ;
+}
