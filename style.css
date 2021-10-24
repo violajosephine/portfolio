@@ -6,6 +6,7 @@
   --purple: #b3a8f3;
   --pink: #f63fb8;
   --green: #008111;
+  --lehavre: le-havre, sans-serif;
 }
 
 /* --------------BODY-------------- */
@@ -15,7 +16,6 @@ body {
 }
 
 main {
-  height: 100vw;
   margin-top: 200px;
 }
 
@@ -25,8 +25,7 @@ main {
 }
 
 .nav-img {
-  width: 300px;
-  height: 100px;
+  width: 400px;
 }
 
 .navbar-brand {
@@ -93,5 +92,67 @@ main {
 
 .nav-link {
   color: var(--blue);
-  font-family: ;
+  font-family: var(--lehavre);
+  font-size: 2rem;
+}
+
+.nav-link:hover {
+  color: var(--orange);
+}
+
+.navbar-nav {
+  margin-left: 50px;
+  margin: auto;
+}
+
+#navbarNavAltMarkup {
+  background-color: none;
+}
+
+/* ---------------TYPING--------------- */
+
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 11ch;
+  animation: typing 1s steps(11), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  color: var(--blue);
+  align-self: center;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* ------------HELLO------------ */
+
+#hello {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 30px;
+  flex-shrink: 1;
+}
+
+#hello img {
+  max-width: 400px;
 }
