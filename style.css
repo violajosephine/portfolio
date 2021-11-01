@@ -179,18 +179,6 @@ h2 {
   font-size: 1.5rem;
 }
 
-/* ------------FORREST------------ */
-
-#forrest {
-  background-image: url("images/forrest.jpg");
-  width: 100%;
-  min-height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* ---------------GROW UP--------------- */
 
 #grow_up {
@@ -208,12 +196,31 @@ h2 {
   flex-direction: row;
   gap: 50px;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .idol {
   width: 300px;
   height: 300px;
-  box-shadow: 0px 0px 2px grey;
+  box-shadow: 0px 0px 2px var(--blue);
+}
+
+/* ------------FORREST------------ */
+
+#forrest {
+  background-image: url("images/forrest.jpg");
+  width: 100%;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* -----------I KNOW & I WANNA LEARN----------- */
+#iknow_iwanna {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* -------------FOOTER------------- */
