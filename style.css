@@ -22,12 +22,18 @@ main {
   margin-top: 200px;
 }
 
-p {
+p,
+li {
   font-variant: var(--helvetica);
 }
 
-h2 {
+h2,
+h3 {
   font-family: var(--gastro);
+}
+
+h3 {
+  font-size: 1.4rem;
 }
 
 /* -----------HEADER-------------- */
@@ -194,7 +200,7 @@ h2 {
 #idols {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+
   justify-content: space-between;
   margin-bottom: 30px;
 }
@@ -203,6 +209,7 @@ h2 {
   width: 300px;
   height: 300px;
   box-shadow: 0px 0px 2px var(--blue);
+  margin-right: 50px;
 }
 
 /* ------------FORREST------------ */
@@ -220,7 +227,38 @@ h2 {
 /* -----------I KNOW & I WANNA LEARN----------- */
 #iknow_iwanna {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  margin: auto;
+  margin-top: 30px;
+  width: 70%;
+}
+
+#iknowdivs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.iknowdiv {
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.iknowdiv ul {
+  width: 400px;
+  display: flex;
+  list-style: inherit;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 230px;
+}
+
+.iknowdiv li {
+  max-width: 140px;
 }
 
 /* -------------FOOTER------------- */
