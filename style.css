@@ -130,6 +130,10 @@ h3 {
   background-color: none;
 }
 
+.blue-shadow {
+  box-shadow: 0px 0px 10px grey;
+}
+
 /* ---------------TYPING--------------- */
 
 .wrapper {
@@ -188,7 +192,7 @@ h3 {
 /* ---------------GROW UP--------------- */
 
 #grow_up {
-  max-width: 1000px;
+  max-width: 90%;
   margin: auto;
   margin-top: 50px;
 }
@@ -231,7 +235,7 @@ h3 {
   justify-content: space-around;
   margin: auto;
   margin-top: 30px;
-  width: 70%;
+  width: 90%;
 }
 
 #iknowdivs {
