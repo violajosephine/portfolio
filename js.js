@@ -5,6 +5,7 @@ document.querySelector(".resume").addEventListener("click", nav);
 
 function nav() {
   document.querySelector("#navbarNavAltMarkup").classList.remove("show");
+  document.querySelector("button").setAttribute("aria-expanded", "false");
 }
 
 document.querySelector("button").addEventListener("click", shadow);
@@ -12,3 +13,5 @@ document.querySelector("button").addEventListener("click", shadow);
 function shadow() {
   document.querySelector("nav").classList.toggle("blue-shadow");
 }
+
+let intern = document.querySelector("Viola");
