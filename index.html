@@ -42,9 +42,14 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link home" aria-current="page" href="#">Home</a>
-              <a class="nav-link about" href="#text_aboutme" -300px>About</a>
-              <a class="nav-link portfolio" href="#">Portfolio</a>
-              <a class="nav-link resume">Resume</a>
+              <a class="nav-link about" href="#href_here1">About</a>
+              <a class="nav-link portfolio" href="#href_here2">Portfolio</a>
+              <a
+                class="nav-link resume"
+                target="blank"
+                href="files/CV(english).pdf"
+                >CV</a
+              >
             </div>
           </div>
         </div>
@@ -55,6 +60,7 @@
         <img src="images/purple_me_shade_text-100.jpg" alt="" id="img_hello" />
         <div class="typing-demo">Hello. I'm Viola.</div>
       </div>
+      <div id="href_here1" class="href_here"></div>
 
       <div id="aboutme">
         <p id="text_aboutme">
@@ -62,10 +68,10 @@
           Multimedia Design on the international line. I really enjoy the
           creative process, though I find it much more challenging than coding,
           which is more logical and “safe”. Therefore, I choose the Digital
-          Design and Content elective, to challenge myself a bit and get out of
-          my comfort zone. I’ve really enjoyed it so far, and sometimes we even
-          dive into the psychological/sociological aspects of design and
-          communication, which I LOVE.
+          Design and Content elective this semester, to challenge myself a bit
+          and get out of my comfort zone. I’ve really enjoyed it so far, and
+          sometimes we even dive into the psychological/sociological aspects of
+          design and communication, which I LOVE.
         </p>
       </div>
 
@@ -80,9 +86,10 @@
       </div>
 
       <div id="forrest">
-        <h3>
-          To create is to make something that has never existed before. There is
-          nothing more vulnerable than that.
+        <h3 id="quote">
+          To create is to make something that has never existed before.
+          <br />
+          There is nothing more vulnerable than that.
           <br />
           - Dr. Brene Brown
         </h3>
@@ -165,14 +172,94 @@
             </div>
           </div>
         </div>
-        <div id="iwanna"><h2>I wanna get better at...</h2></div>
+        <div id="iwanna">
+          <h2>I wanna get better at...</h2>
+          <p>
+            Cras cursus tincidunt tortor non aliquam. Mauris consequat mauris ac
+            mi lacinia consectetur. Cras feugiat nibh erat, nec posuere augue
+            auctor eu. Proin pulvinar erat ac lobortis rutrum. Etiam consectetur
+            ultrices purus non dictum. Ut eget nulla nec nisi porttitor
+            vestibulum. In tristique imperdiet enim sit amet cursus. Donec non
+            lectus malesuada felis egestas euismod nec vitae erat. Mauris
+            condimentum neque at arcu volutpat, et eleifend lectus mattis.
+            Vivamus elementum nunc odio, sit amet egestas nulla posuere vitae.
+            In tempor, purus sit amet rutrum eleifend, lectus libero sagittis
+            tellus, nec auctor ligula diam eget nunc.
+          </p>
+        </div>
       </div>
-
-      <div id="experience">
-        <h2>Experience</h2>
-      </div>
+      <div id="href_here2" class="href_here"></div>
       <div id="projects">
         <h2>Selected projects</h2>
+        <div id="project_divs">
+          <div class="project_div">
+            <div class="project_div_text">
+              <h3>Compassion game</h3>
+              <h4>Animation, 1st Semester</h4>
+
+              <p>
+                -creative freedom, soloproject, merge of my interests, fun to
+                create a game
+              </p>
+              <a
+                href="https://violajosephine.com/compassion_conquest/"
+                target="blank"
+                >Link to site</a
+              >
+            </div>
+            <img src="images/compassiongame.png" alt="" />
+          </div>
+          <div class="project_div">
+            <div class="project_div_text">
+              <h3>Cherry Pop - Sex Ed</h3>
+              <h4>Basic UX, 1st Semester</h4>
+              <p>
+                - Great topic, "letter to sex", focus on shame(my interest),
+                Nice graphics,
+              </p>
+              <a
+                href="https://violajosephine.github.io/CherryPop/"
+                target="blank"
+                >Link to site</a
+              >
+            </div>
+            <img src="images/cherrypop.png" alt="" />
+          </div>
+          <div class="project_div">
+            <div class="project_div_text">
+              <h3>Me-Mover fitness equipment</h3>
+              <h4>User Centered Design, 2nd Semester</h4>
+
+              <p>
+                - Work with motion graphics, got to film outselves, thorough
+                report writing, working with real client
+              </p>
+
+              <a
+                href="https://violajosephine.github.io/memover_website/"
+                target="blank"
+                >Link to site</a
+              >
+            </div>
+            <img src="images/memover.png" alt="" />
+          </div>
+          <div class="project_div">
+            <div class="project_div_text">
+              <h3>Killer Kebab</h3>
+              <h4>Exam project, 3rd Semester</h4>
+
+              <p>
+                - real life client, exam thoroughness, improved skills, produced
+                content ourselves, great group
+              </p>
+
+              <a href="www.violajosephine.com/portfolio" target="blank"
+                >Link to site</a
+              >
+            </div>
+            <img src="images/logo.png" alt="" />
+          </div>
+        </div>
       </div>
     </main>
     <footer><p id="lovelyday">HAVE A LOVELY DAY &hearts;</p></footer>
@@ -188,6 +275,8 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
     <script src="js.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->

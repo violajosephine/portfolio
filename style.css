@@ -26,6 +26,10 @@ p,
 li {
   font-variant: var(--helvetica);
 }
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 h2,
 h3 {
@@ -36,6 +40,10 @@ h3 {
   font-size: 1.4rem;
 }
 
+h4 {
+  font-family: var(--lehavre);
+}
+
 /* -----------HEADER-------------- */
 .navbar {
   background-color: var(--creme);
@@ -43,12 +51,6 @@ h3 {
 
 .nav-img {
   width: 400px;
-}
-
-@media screen and (max-width: 550px) {
-  .nav-img {
-    width: 300px;
-  }
 }
 
 .navbar-brand {
@@ -196,6 +198,11 @@ h3 {
   font-size: 1.5rem;
 }
 
+.href_here {
+  margin-top: -100px;
+  position: absolute;
+}
+
 /* ---------------GROW UP--------------- */
 
 #grow_up {
@@ -205,23 +212,24 @@ h3 {
 }
 #grow_up h2 {
   padding-top: 20px;
-  padding-bottom: 20px;
+
   text-align: center;
 }
 
 #idols {
   display: flex;
   flex-direction: row;
-
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 30px;
 }
 
 .idol {
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 270px;
   box-shadow: 0px 0px 2px var(--blue);
   margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 /* ------------FORREST------------ */
@@ -230,7 +238,7 @@ h3 {
   background-image: url("images/forrest.jpg");
   width: 100%;
   min-height: 400px;
-  padding-top: 200px;
+  padding-top: 150px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -238,8 +246,8 @@ h3 {
 }
 #forrest h3 {
   text-align: center;
-  color: var(--pink);
-  max-width: 400px;
+  color: var(--purple);
+  max-width: 750px;
   margin: auto;
 }
 
@@ -251,12 +259,6 @@ h3 {
   margin: auto;
   margin-top: 30px;
   width: 70%;
-}
-
-@media screen and (max-width: 1250px) {
-  #iknow_iwanna {
-    width: 90%;
-  }
 }
 
 #iknow {
@@ -295,6 +297,32 @@ h3 {
   max-width: 300px;
 }
 
+/* -------------PROJECTS------------- */
+
+#projects {
+  max-width: 70%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.project_div {
+  width: 95%;
+  border: solid var(--blue) 2px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 40px;
+  display: flex;
+}
+.project_div img {
+  max-width: 50%;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.project_div_text {
+  margin-right: 20px;
+}
+
 /* -------------FOOTER------------- */
 
 footer {
@@ -313,4 +341,26 @@ footer {
   color: var(--purple);
   text-align: center;
   font-size: 0.5rem;
+}
+
+/* -----------MEDIA QUERIES----------- */
+
+@media screen and (max-width: 1250px) {
+  #iknow_iwanna {
+    width: 90%;
+  }
+  #projects {
+    width: 90%;
+  }
+
+  .project_div {
+    width: 100%;
+    flex-wrap: wrap-reverse;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .nav-img {
+    width: 300px;
+  }
 }
