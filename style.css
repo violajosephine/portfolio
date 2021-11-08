@@ -294,7 +294,7 @@ h4 {
 }
 
 .iknowdiv img {
-  max-width: 300px;
+  max-height: 250px;
 }
 
 /* -------------PROJECTS------------- */
@@ -309,7 +309,7 @@ h4 {
   width: 95%;
   border: solid var(--blue) 2px;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding: 40px;
   display: flex;
 }
@@ -356,6 +356,11 @@ footer {
   .project_div {
     width: 100%;
     flex-wrap: wrap-reverse;
+  }
+  .project_div img {
+    max-width: 100%;
+
+    margin-bottom: 20px;
   }
 }
 

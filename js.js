@@ -22,11 +22,11 @@ gsap
     scrollTrigger: {
       trigger: "#forrest",
       // markers: true,
-      start: "top 50%",
+      start: "top 30%",
       end: "bottom 50%",
       scrub: true,
     },
   })
   .to("#quote", {
-    color: "#f63fb8",
+    color: "#f2ede2",
   });
