@@ -181,6 +181,7 @@ h4 {
   display: flex;
   margin: auto;
   justify-content: center;
+  align-items: center;
   gap: 30px;
   flex-shrink: 1;
   flex-wrap: wrap;
