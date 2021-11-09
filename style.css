@@ -71,7 +71,6 @@ h4 {
 .navbar-toggler-icon {
   display: flex;
   flex-direction: column;
-  gap: 5px;
 }
 
 .bar {
@@ -79,6 +78,7 @@ h4 {
   background-repeat: none;
   height: 3px;
   width: 30px;
+  margin-top: 5px;
   background-size: contain;
 }
 
@@ -145,7 +145,6 @@ h4 {
 /* ---------------TYPING--------------- */
 
 .wrapper {
-  height: 100vh;
   /*This part is important for centering*/
   display: flex;
   align-items: center;
