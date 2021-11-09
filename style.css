@@ -44,6 +44,14 @@ h4 {
   font-family: var(--lehavre);
 }
 
+a {
+  color: var(--blue);
+}
+
+a:active {
+  font-variant: var(--orange);
+}
+
 /* -----------HEADER-------------- */
 .navbar {
   background-color: var(--creme);
