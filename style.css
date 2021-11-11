@@ -433,6 +433,10 @@ footer {
   font-size: 0.5rem;
 }
 
+#mycontent {
+  font-size: 0.7rem;
+}
+
 /* -----------MEDIA QUERIES----------- */
 
 @media screen and (max-width: 1250px) {
