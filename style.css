@@ -293,7 +293,7 @@ a:active {
   color: var(--purple);
   max-width: 750px;
   margin: auto;
-  text-shadow: 0px 0px 5px black;
+  /* text-shadow: 0px 0px 5px black; */
 }
 
 /* -----------I KNOW & I WANNA LEARN----------- */
