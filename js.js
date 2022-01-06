@@ -23,12 +23,12 @@ gsap
       trigger: "#forrest",
       // markers: true,
       start: "top 30%",
-      end: "bottom 50%",
+      end: "bottom 30%",
       scrub: true,
     },
   })
   .to("#quote", {
-    color: "#f2ede2",
+    opacity: 0,
   });
 
 //I wanna
